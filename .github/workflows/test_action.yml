@@ -14,8 +14,8 @@ jobs:
       pr_branch: test/${{ github.ref_name }}
       base_branch: ${{ github.ref_name }}
       run_id: ${{ github.run_id }}
-      GIT_AUTHOR_NAME: ${{ gihhub-actions[bot] }}
-      GIT_AUTHOR_EMAIL: ${{ gihhub-actions[bot]@users.noreply.github.com }}
+      GIT_AUTHOR_NAME: ${{ github-actions[bot] }}
+      GIT_AUTHOR_EMAIL: ${{ github-actions[bot]@users.noreply.github.com }}
     steps:
       - uses: actions/checkout@v4
       - run: |
